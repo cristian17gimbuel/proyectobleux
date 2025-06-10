@@ -40,10 +40,15 @@
         width: 100%;
     }
     .enfe{
-        justify-items: center;
         width: 50%;
         background-color: #2e2550;
         color: #ffffff;
+    }
+    .colort{
+        background: linear-gradient(90deg, #FA4A54, #DA0170);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
     .jhd{
         align-content: center;
@@ -55,11 +60,118 @@
     .jhd img{
         height: 70%;
     }
-    .terce{
-        display: flex;
+  
+
+
+    /* Diseño planes  */
+    .otr{
+        background-color: #1e172f;
+    }
+    .otr h1 {
+        text-align: center;
+        font-size: 80px;
+        color: #ffffff;
     }
 
+    .hhh {
+        text-align: center;
+        color: #bfbdc3;
+        margin: 10px auto;
+        max-width: 800px;
+    }
+    /* Color de emojis */
+    .y{
+        color:rgb(247, 6, 126);
+    }
 
+    .pricing-container {
+        background-color: #1e172f;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 30px 10%;
+    }
+
+    .plan {
+        background-color: white;
+        border-radius: 10px;
+        padding: 30px;
+        text-align: center;
+        width: 280px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        color: #333;
+    }
+
+    .plan h2 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .plan h2 img {
+        width: 20px;
+        margin-right: 5px;
+        vertical-align: middle;
+    }
+
+    .price {
+        background: #f5f5f5;
+        font-size: 32px;
+        margin: 15px 0;
+        color: #1d0e3f;
+    }
+
+    .price small {
+        font-size: 14px;
+        color: gray;
+    }
+
+    .features {
+        list-style: none;
+        text-align: left;
+        margin: 15px 0;
+        padding-left: 0;
+    }
+
+    .features .check {
+        color: #454545;
+    }
+
+    .features .cross {
+        color: #888;
+        text-decoration: line-through;
+    }
+    .colorr{
+        background-color: #f5f5f5;
+        color: #ffffff;
+        padding: 10px 20px;
+        border-radius: 8px;
+        margin-top: 15px;
+        border: none;
+        background: linear-gradient(90deg, #ec66ab, #f41687);
+    }
+
+    .subscribe {
+        background-color: #2e2550;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 8px;
+        margin-top: 15px;
+    }
+    .trrrr{
+        background: #f5f5f5;
+    }
+
+    /* PLAN NOMBRES COLORES */
+    .color {
+        color: #ff2e88;
+    }
+
+    .colors {
+        color: #1d0e3f;
+    }
+    /* Diseño footer */
     footer {
         background-color: #ffffff;
         padding: 30px 10%;
@@ -81,3 +193,8 @@
         width: 25px;
         margin-left: 15px;
     }
+   
+    .uuu{
+        display: flex;
+    }
+    
